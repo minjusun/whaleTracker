@@ -1,0 +1,468 @@
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+         packageId="http://ipt.gbif.pt/ipt/resource?id=futurismo_sm_0818/v1.5" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+    <dataset>
+        <alternateIdentifier>http://ipt.gbif.pt/ipt/resource?r=futurismo_sm_0818</alternateIdentifier>
+        <shortName>Futurismo_SaoMiguel_0818</shortName>
+        <title xml:lang="eng">Whale-Watching cetacean occurrences by Futurismo Azores Adventures from 2008 to 2018 off São Miguel (Azores)</title>
+        <creator>
+            <individualName>
+                <givenName>Laura</givenName>
+                <surName>González García</surName>
+            </individualName>
+            <organizationName>Futurismo Azores Adventures</organizationName>
+            <positionName>Scientific &amp; Technical Coordinator</positionName>
+            <address>
+                <city>Ponta Delgada</city>
+                <administrativeArea>São Miguel/Azores</administrativeArea>
+                <postalCode>9500-771</postalCode>
+                <country>PT</country>
+            </address>
+            <electronicMailAddress>lauragonzalez@futurismo.pt</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0001-7353-0983</userId>
+            <userId directory="http://www.researcherid.com/rid/">GSE-3410-2022</userId>
+            <userId directory="http://scholar.google.com/citations?user=">https://scholar.google.com/citations?user=poSdfAoAAAAJ&amp;hl=es</userId>
+            <userId directory="https://www.linkedin.com/profile/view?id=">https://www.linkedin.com/in/laura-gonz%C3%A1lez-garc%C3%ADa-874a72197/</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Catarina</givenName>
+                <surName>Barata</surName>
+            </individualName>
+            <organizationName>Futurismo Azores Adventures</organizationName>
+            <positionName>Marine Biologist</positionName>
+            <address>
+                <deliveryPoint>Portas do Mar, loja 24-26</deliveryPoint>
+                <city>Ponta Delgada</city>
+                <administrativeArea>São Miguel/Azores</administrativeArea>
+                <postalCode>9500-771</postalCode>
+                <country>PT</country>
+            </address>
+            <electronicMailAddress>catarinabarata@futurismo.pt</electronicMailAddress>
+            <userId directory="https://orcid.org/">0009-0009-7618-2609</userId>
+            <userId directory="https://www.linkedin.com/profile/view?id=">www.linkedin.com/in/catarina-barata-208a41230, 0009-0009-7618-2609</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Valeria</givenName>
+                <surName>Idárraga Garcés</surName>
+            </individualName>
+            <organizationName>Futurismo Azores Adventures</organizationName>
+            <positionName>Marine Biologist</positionName>
+            <address>
+                <deliveryPoint>Portas do Mar, loja 24-26</deliveryPoint>
+                <city>Ponta Delgada</city>
+                <administrativeArea>São Miguel/Azores</administrativeArea>
+                <postalCode>9500-771</postalCode>
+                <country>PT</country>
+            </address>
+            <electronicMailAddress>valeriaidarraga@futurismo.pt</electronicMailAddress>
+            <userId directory="https://orcid.org/">0009-0008-8421-997X</userId>
+            <userId directory="https://www.linkedin.com/profile/view?id=">www.linkedin.com/in/valeriaidarraga</userId>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Laura</givenName>
+                <surName>González García</surName>
+            </individualName>
+            <organizationName>Futurismo Azores Adventures</organizationName>
+            <positionName>Scientific &amp; Technical Coordinator</positionName>
+            <address>
+                <deliveryPoint>Portas do Mar, loja 24-26</deliveryPoint>
+                <city>Ponta Delgada</city>
+                <administrativeArea>São Miguel/Azores</administrativeArea>
+                <postalCode>9500-771</postalCode>
+                <country>PT</country>
+            </address>
+            <electronicMailAddress>lauragonzalez@futurismo.pt</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0001-7353-0983</userId>
+            <userId directory="http://www.researcherid.com/rid/">GSE-3410-2022</userId>
+            <userId directory="http://scholar.google.com/citations?user=">https://scholar.google.com/citations?hl=es&amp;user=poSdfAoAAAAJ</userId>
+            <userId directory="https://www.linkedin.com/profile/view?id=">https://www.linkedin.com/in/laura-gonz%C3%A1lez-garc%C3%ADa-874a72197/</userId>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>Ruben</givenName>
+                <surName>Rodrigues</surName>
+            </individualName>
+            <organizationName>Futurismo Azores Adventures</organizationName>
+            <address>
+                <city>Ponta Delgada</city>
+                <administrativeArea>São Miguel/Azores</administrativeArea>
+                <postalCode>9500-771</postalCode>
+                <country>PT</country>
+            </address>
+            <electronicMailAddress>rubenrodrigues@futurismo.pt</electronicMailAddress>
+            <role>owner</role>
+        </associatedParty>
+        <pubDate>
+            2025-04-16
+        </pubDate>
+        <language>eng</language>
+        <abstract>
+            
+            Whale-watching vessels have become valuable platforms for cetacean data collection worldwide. In the Azores, a cetacean hotspot in the Atlantic, Futurismo Azores Adventures, a family-owned tourism company with whale-watching as its core business, has been collecting data regularly since 2008. The current dataset compiles observations of 20 cetacean species and 19 other species of marine megafauna, recorded by Futurismo Azores Adventures off São Miguel Island (Azores, Portugal) from 2008 to 2018. Data was collected during 4219 whale-watching commercial trips conducted daily and year-round. This information has been prepared for publication within the framework of the DTO-BioFlow project, which aims to enable a data flow into the EU Digital Twin Ocean.
+        
+        </abstract>
+        <keywordSet>
+            <keyword>Samplingevent</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Observation</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>cetacean</keyword>
+            <keyword>whale-watching</keyword>
+            <keyword>Azores</keyword>
+            <keywordThesaurus>NA</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC 4.0) License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution Non Commercial 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-NC-4.0.html</url>
+            <identifier>CC-BY-NC-4.0</identifier>
+        </licensed>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Data was collected off São Miguel Island, one of the easternmost islands of the Archipelago of the Azores in the Mid-Atlantic.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-26.521</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-24.939</eastBoundingCoordinate>
+                    <northBoundingCoordinate>38.126</northBoundingCoordinate>
+                    <southBoundingCoordinate>37.3</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>2008-05-01</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2018-12-31</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>The dataset compiles observations of 20 cetacean species and 19 other species of marine megafauna, recorded by Futurismo Azores Adventures off São Miguel Island (Azores, Portugal) from 2008 to 2018.</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>phylum</taxonRankName>
+                    <taxonRankValue>Chordata</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Testudines</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Molidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Aves</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Reptilia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Hexanchiidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Carnivora</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Elasmobranchii</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Carcharhinidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Ziphiidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Sphyrnidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Scombridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Balaenopteridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Beloniformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Exocoetidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Mammalia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Istiophoridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Mobulidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Procellariidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Phocidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>kingdom</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Cetartiodactyla </taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Phalacrocoracidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Scombriformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Xiphiidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Cetartiodactyla</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Carangiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Orectolobiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Carcharhiniformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Delphinidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Procellariiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Physeteridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Pelecaniformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Cheloniidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>family</taxonRankName>
+                    <taxonRankValue>Rhicodontidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Tetraodontiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Myliobatiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Hexanchiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Teleostei</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <purpose><para>The Azores are a recognised hotspot for cetaceans. Some of the cetacean species occur year-round more or less regularly, others are present every year on a seasonal basis or while crossing the Archipelago during their migrations, and others are sighted occasionally without, apparently, any clear pattern. With almost one third of the world's species sighted in the Region, the commercial whale-watching (WW) activity conducted in the Azores offers great opportunities to collect, in a cost-effective way, cetacean data that otherwise would be inaccessible. Therefore, this opportunistic information, which often forms long-term data series, can significantly complement traditional studies and data sources. In these unprecedented times of constant environmental change and increasing anthropogenic pressures, long-term data provides valuable insights for detecting potential shifts in species distribution and movement patterns. The current dataset compiles cetacean occurrences collected opportunistically during WW tours off São Miguel Island (Azores, Portugal). Data was registered by Futurismo Azores Adventures between 2008 and 2018, year-round and daily, with a higher number of trips during summer, which is the high tourism season in the Azores.</para></purpose>
+        <gettingStarted><para>Eleven years (2008-2018) of cetacean occurrence data collected from whale-watching vessels operated by Futurismo Azores Adventures off São Miguel have been translated into a DwC – Archive composed of an Event Table (with 18425 events), an Occurrence Table (with 20413 occurrences) and an extended Measurements or Facts Table (with 88382 records). The three tables are linked by the eventID field, and Occurrence and eMoF table also by the occurrenceID field.</para></gettingStarted>
+        <acknowledgements><para>This work was financed by the Financial Support to Third Parties (FSTP) grant of the "Integration of biodiversity monitoring data into the Digital Twin Ocean", also known as "DTO-BioFlow", HORIZON-MISS-2022-OCEAN-01-101112823 FSTP data Grant Agreement, from March 2024 until February 2025. We acknowledge all Futurismo Azores Adventures staff who worked over the years, particularly biologists, skippers and lookouts, as well as the Operation Manager Rui Rodrigues and the CEO Ruben Rodrigues, whose vision and commitment have played a vital role in shaping and enhancing the company's data collection initiatives from the very beginning. Special thanks to the biologists present between March 2024 and February 2025, because of their interest to learn, to improve and to maintain cetacean data collection over time, but overall, because of being excellent people and friends: Mariana Silva, Andreia Pereira, Dinis Jacob, Georgina Cabayol, Jéssica Louro, Lucas Cidade, Margarida Rolim, Maria Brito, Pedro Malato, Ana Castanheira, Emma Agnelli, Alba Haro Heréu. Biology interns: Laia López Gil, Chiara Tronfi, Mar Ferrer Renau, Julia Torromé, Laia Valor, Víctor Giner, Lola Visiedo, Sentosa Antony, Àlex Miquel Carpintero, Raquel Rui Martínez, Ana Pires Saraiva, Gina Hazebroek. And Miranda van der Linde, who notably enhanced data collection from 2010. Additional thanks to Dr. Rui Figueira, the GBIF Portuguese node coordinator, Rubén Pérez from EurOBIS and EMODnet, and Lynn Delgat from VLIZ, who greatly and very professionally supported us throughout the project.</para></acknowledgements>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>irregular</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Laura</givenName>
+                <surName>González García</surName>
+            </individualName>
+            <organizationName>Futurismo Azores Adventures</organizationName>
+            <positionName>Scientific &amp; Technical Coordinator</positionName>
+            <address>
+                <deliveryPoint>Portas do Mar, loja 24-26</deliveryPoint>
+                <city>Ponta Delgada</city>
+                <administrativeArea>São Miguel/Azores</administrativeArea>
+                <postalCode>9500-771</postalCode>
+                <country>PT</country>
+            </address>
+            <electronicMailAddress>lauragonzalez@futurismo.pt</electronicMailAddress>
+            <onlineUrl>https://www.futurismo.pt/</onlineUrl>
+            <userId directory="https://orcid.org/">0000-0001-7353-0983</userId>
+            <userId directory="http://www.researcherid.com/rid/">GSE-3410-2022</userId>
+            <userId directory="http://scholar.google.com/citations?user=">https://scholar.google.com/citations?user=poSdfAoAAAAJ&amp;hl=es</userId>
+            <userId directory="https://www.linkedin.com/profile/view?id=">https://www.linkedin.com/in/laura-gonz%C3%A1lez-garc%C3%ADa-874a72197/</userId>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>Data was collected at sea during commercial whale-watching trips in the Azores between 2008 and 2018.
+2. Digitalised data in Excel was checked and completed against the original datasheets.
+3. Original variables were harmonized and standardized across years.
+4. Original data was checked and validated, mostly regarding coordinate formats and information extracted from the comments section.
+5. Original variables were mapped and transformed into DwC-terms.
+6. Data was organised in three tables: Event Table, Occurrence Table and Extended Measurement Or Facts Table (eMoF).
+7. DwC data was validated with WoRMS, with the NERC Vocabulary Server (NVS) and EMODnet/OBIS tools.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>The current dataset contains data collected off São Miguel Island (Azores, Portugal) from whale-watching vessels between 2008 and 2018,  on a daily basis and year round, according to good weather conditions and presence of tourists.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Data compiled in this dataset was registered during commercial whale-watching tours of Futurismo Azores Adventures. Trips have an average duration of 2.5 to 3h. Biologists/guides on board are responsible for registering the data about the sightings. Animals are firstly spotted from land by experienced lookouts located in strategic points off São Miguel&apos;s coast, characterised by good spatial cover and visibility. They are equipped with powerful binoculars (Steiner 20 x 80) that on a good visibility day can see up to 45 kilometres into the sea using the same technique used historically by whalers. Once they spot the animals, they communicate via VHF radio with the skipper on board, guiding the boat to the area where they were spotted. Once in the area, the biologist on board registers all the data from the sighting (time, GPS coordinates, species, group size, valuable information about the individual/group behaviour, sea state and visibility). For this dataset (until 2018), data was registered in a paper datasheet, and only later was transferred to an Excel file, and stored appropriately in hard drives. 
+In this project, we completed the Excel database by adding the missing original information, then carried out a cleaning process to standardize and harmonize variables across years, ensuring the accuracy and consistency of records. Original variables were mapped into Darwin Core (DwC) terms, and transformation was conducted mostly using R routines. However, due to the heterogeneous nature of the data over the years, a significant portion of the verification was done manually. Data was organised in three tables according to the standard structure of a DwC-Arquive. The core table of this dataset is the event table, which summarises information related to the whale-watching trips and the encounters. These are linked to the occurrences detected on each encounter, which are organised by species, life stage and sex. And at the same time, both events and occurrences are linked to the extended Measurement of Facts table, which compiles all the variables related (for instance, sea state or visibility related to the events, and number of individuals or behaviour related to the occurrences).</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>Taxonomic terms were validated with the World Register of Marine Species (WoRMS), variable descriptions and related fields were associated when possible with the NERC Vocabulary Server (NVS), a Quality Check was performed following EMODnet and OBIS recommendations and tools, and the final dataset was submitted via the Portuguese GBIF IPT node, complying with the corresponding validation process.</para>
+                </description>
+            </qualityControl>
+        </methods>
+        <project>
+            <title>Futurismo: linking whale-watching tourism with cetacean research in the Azores</title>
+            <personnel>
+                <individualName>
+                    <givenName>Laura</givenName>
+                    <surName>González García</surName>
+                </individualName>
+                <userId directory="https://orcid.org/">0000-0001-7353-0983</userId>
+                <role>principalInvestigator</role>
+            </personnel>
+            <personnel>
+                <individualName>
+                    <givenName>Catarina</givenName>
+                    <surName>Barata</surName>
+                </individualName>
+                <userId directory="https://orcid.org/">0009-0009-7618-2609</userId>
+                <role></role>
+            </personnel>
+            <personnel>
+                <individualName>
+                    <givenName>Valéria</givenName>
+                    <surName>Idárraga Garcés</surName>
+                </individualName>
+                <userId directory="https://orcid.org/">0009-0008-8421-997</userId>
+                <role></role>
+            </personnel>
+            <abstract>
+                <para>Whale watching has become one of the most important touristic activities in the Azores archipelago (Portugal). The number of commercial tours has increased over the years, providing therefore an increasing number of opportunities for cetacean data collection at sea. Futurismo Azores Adventures is one of the leading companies in the Region and has been registering data during their trips consistently since 2008. Currently, the existing data gathers more than 15000 sightings of cetaceans which are divided into two slightly different datasets (2008-2018 and 2019 onwards) stored in external hard drives. Acknowledging the opportunistic nature of the data, we emphasize the necessity for a rigorous quality check to address potential flows and inconsistencies and ensure data accuracy before public release. We aim to create routines to facilitate data processing and guarantee regular updates to the public domain following the international biodiversity standard Darwin Core. That way, we will adapt and standardize the methodology for data collection and processing to maximize data accessibility, transparency and reusability following the FAIR principles. We aim to publish in open access (via EMODnet Biology) the data collected between 2008 and 2018, and make it available via API for the wider public.
+As the data collection is still ongoing, we also envisioned regular data flow after the project in the long-term with an expansion on the spatial cover (to the north coast of São Miguel and Pico Island), and will do so in the future. By adopting open licensing, the project contributes to the global collaborative effort in marine conservation, fostering synergies, and enhancing the impact of sound research. Part of these opportunistic data has already been used for peer-reviewed articles and academic dissertations, showcasing its value for research. Among others, it can be useful to detect potential changes in species distribution or migrations, identify suitable areas, or even document extraordinary events. Futurismo Azores Adventures&apos; commitment to establishing a robust database adhering to international standards sets an example, showcasing how the link between tourism and science could be crucial for research and conservation.</para>
+            </abstract>
+            <funding>
+                <para>Work financed by the Financial Support to Third Parties (FSTP) grant of the “Integration of biodiversity monitoring data into the Digital Twin Ocean”, also known as “DTO-BioFlow”, HORIZON-MISS-2022-OCEAN-01-101112823. FSTP data Grant Agreement, from March 2024 until February 2025.</para>
+            </funding>
+        </project>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-03-15T17:12:52.159+00:00</dateStamp>
+                <hierarchyLevel>dataset</hierarchyLevel>
+                <citation>González García L, Barata C, Idárraga Garcés V (2025). Whale-Watching cetacean occurrences by Futurismo Azores Adventures from 2008 to 2018 off São Miguel (Azores). Version 1.0. Futurismo Azores Adventures. http://ipt.gbif.pt/ipt/resource?r=futurismo_sm_0818</citation>
+                <bibliography>
+                    <citation identifier="https://doi.org/10.7717/peerj.3059">Aguilar De Soto, N., Martín, V., Silva, M., Edler, R., Reyes, C., Carrillo, M., Schiavi, A., Morales, T., García-Ovide, B., Sanchez-Mora, A., Garcia-Tavero, N., Steiner, L., Scheer, M., Gockel, R., Walker, D., Villa, E., Szlama, P., Eriksson, I. K., Tejedor, M., … Carroll, E. (2017). True’s beaked whale ( Mesoplodon mirus ) in Macaronesia. PeerJ, 5, e3059. https://doi.org/10.7717/peerj.3059.</citation>
+                    <citation identifier="https://doi.org/10.61350/sbj.32.119">Al Abbar, F., Silva, M., &amp; Geelhoed, S. (2020). Leucistic Cory’s Shearwater Calonectris borealis off São Miguel, Azores, in November 2019. Seabird Journal, 32, 119–121. https://doi.org/10.61350/sbj.32.119.</citation>
+                    <citation identifier="https://doi.org/10.14284/599">Azevedo, J. M. N., Fernández Morrón, M., &amp; González García, L. (2020). Long-term cetacean monitoring in the Azores based on whale watching observations (2009-2020). https://doi.org/10.14284/599.</citation>
+                    <citation>Brandão, M., Horta e Costa, B., &amp; González García, L. (2022). Highly Identifiable common dolphins show long-term residency patterns around São Miguel Island, Azores. 24th Biennial Conference of the Society for Marine Mammalogy (August  1-5, 2022; Palm Beach - Florida, USA).</citation>
+                    <citation>Brito, M., Ernesto, M. A., Coelho, I., Pereira, A., Jacob, D., &amp; González García, L. (2022). Azores, the last puzzle piece of the North Atlantic humpback whale migration. XIII Congreso de La Sociedad Española de Cetáceos (October 27-30th, 2022; Sant Josep de sa Talaia, Ibiza, Spain).</citation>
+                    <citation identifier="https://doi.org/10.13140/RG.2.2.27192.93445">Cabayol, G., Coelho, I., Huamán, M., &amp; González García, L. (2023). Orcas in the Azores: Photo-identification &amp; description of an apex predator visiting São Miguel. 34th European Cetacean Society (ECS) Conference (April 18-20th, 2023; O Grove, Galicia, Spain). DOI: https://doi.org/10.13140/RG.2.2.27192.93445.</citation>
+                    <citation identifier="https://doi.org/10.13140/RG.2.2.23914.63684">Cabayol, G., &amp; González García, L. (2025). Eighteen years of orcas in São Miguel, Azores: Insights from whale watching data. V International Symposium on Orcas (February 16-21, 2025; Tarifa, Spain). https://doi.org/10.13140/RG.2.2.23914.63684.</citation>
+                    <citation identifier="http://hdl.handle.net/10174/24345">Carvalho, A., Gil, Á., Dinis, A., Correia, A. M., Moura, A., Ceccheti, A., Faustino, C., &amp; others. (2019). Mamíferos Marinhos. In J. Bencatel, H. Sabino-Marques, F. Álvares, A. E. Moura, &amp; A. M. Barbosa (Eds.), Atlas de Mamíferos de Portugal (pp. 1–274). Joana Bencatel, Helena Sabino-Marques, Francisco Álvares, André E. Moura &amp; A. Márcia Barbosa. http://hdl.handle.net/10174/24345.</citation>
+                    <citation identifier="http://hdl.handle.net/10400.1/17630">Catalão, R. (2021). Spatial and temporal distribution and potential residency patterns of bottlenose dolphins (Tursiops truncatus) off São Miguel Island, Azores [Master’s Thesis]. Universidade do Algarve. http://hdl.handle.net/10400.1/17630.</citation>
+                    <citation identifier="http://hdl.handle.net/10400.1/18151">Coelho, I. A. T. (2021). Habitat preferences of sperm whales (Physeter macrocephalus) off São Miguel Island, Azores [Master’s Thesis]. Universidade do Algarve. http://hdl.handle.net/10400.1/18151.</citation>
+                    <citation>Coelho, I., Abecasis, D., &amp; González García, L. (2021). Habitat preference of the sperm whales Physeter macrocephalus off São Miguel Island Azores. XII Conferencia de La Sociedad Española de Cetáceos (October 4-7th, 2021).</citation>
+                    <citation>Coelho, I., Abecasis, D., &amp; González García, L. (2022). Fantastic sperm whales and where to find them: Habitat preference of sperm whales in the Azores. 33rd Conference of the European Cetacean Society (April 5-7th, 2022; Ashdod, Israel - online).</citation>
+                    <citation identifier="http://hdl.handle.net/10400.1/17436">Ernesto, M. A. (2021). Fin whale (Balaenoptera physalus) identification and distribution around São Miguel island (Azores) and inferences on the movements towards other areas [Master’s Thesis]. Universidade do Algarve. http://hdl.handle.net/10400.1/17436</citation>
+                    <citation identifier="https://doi.org/10.13140/RG.2.2.20245.44005">Ernesto, M. A., Abecasis, D., &amp; González García, L. (2022). Perfect timing: Understanding chlorophyll influence on fin whale occurrence in the Azores using a CCF. 33rd Conference of the European Cetacean Society (April 5-7th, 2022; Ashdod, Israel - online). https://doi.org/10.13140/RG.2.2.20245.44005.</citation>
+                    <citation>Gil, Á., González García, L., &amp; Correia, A. M. T. (2015). Rutas migratorias de las yubartas en el Atlántico: ¿dónde y cuándo? VIII Congreso de La Sociedad Española de Cetáceos (October 2-4, 2015, Vigo, Spain).</citation>
+                    <citation>González García, L. (2011). Distribución de cachalotes (Physeter macrocephalus) en la costa sur de la isla de São Miguel, Azores: Relación con la batimetría, la pendiente y la orientación del fondo [Master’s Thesis]. Universidade de Vigo.</citation>
+                    <citation>González García, L. (2012). Distribución espacio-temporal de delfín común, delfín mular y cachalote en la costa sur de la isla de São Miguel, Azores: Modelado predictivo de zonas favorables para la observación [Master’s Thesis]. Universidade de Vigo.</citation>
+                    <citation>González García, L., Alonso, J., Mutter, M., Boertien, M., Butter, E., Morganti, C., &amp; Torres-Palenzuela, J. M. (2017). The first year of Sail &amp; Whale: A success of synergy. II Congreso de Biodiversidad y Conservación de La Naturaleza (September 27-30, 2017; Almeria, Spain).</citation>
+                    <citation identifier="https://doi.org/10.3897/BDJ.11.e106991">González García, L., Fernández, M., &amp; Azevedo, J. (2023). MONICET: The Azores whale watching contribution to cetacean monitoring. Biodiversity Data Journal, 11, e106991.</citation>
+                    <citation identifier="https://doi.org/10.5281/ZENODO.6497099">Gonzalez Garcia, L., Fernandez, M., &amp; Azevedo, J. M. N. (2022). Long Term Ecological Data Series in cetaceans: Essential but challenging! https://doi.org/10.5281/ZENODO.6497099</citation>
+                    <citation identifier="https://youtu.be/TyAJU2YL2us?feature=shared">González García, L., Fernandez, M., Fernández-Corredor, E., Higueras, A., Suciu, S., &amp; Azevedo, J. M. N. (2020). MONICET: structure and applications of a long-term ecological data series of whale-watching sightings in the Azores. XIX Encontro Nacional de Ecologia e Celebração Dos 25 Anos Da SPECO (December 9-12, 2020; online - Portugal).</citation>
+                    <citation identifier="https://doi.org/10.1371/journal.pone.0201786">González García, L., Pierce, G. J., Autret, E., &amp; Torres-Palenzuela, J. M. (2018). Multi-scale habitat preference analyses for Azorean blue whales. PLOS ONE, 13(9), e0201786. https://doi.org/10.1371/journal.pone.0201786.</citation>
+                    <citation identifier="https://www.researchgate.net/publication/337655753_Temporal_Distribution_and_Multi-scale_Habitat_Preference_Analyses_for_Azorean_Blue_Whales">González García, L., Pierce, G. J., Autret, E., &amp; Torres-Palenzuela, J. M. (2019). Temporal distribution and Multi-scale Habitat Preference Analyses for Azorean Blue Whales. World Marine Mammal Conference (December 9-12, 2019; Barcelona, Spain).</citation>
+                    <citation identifier="https://doi.org/10.1016/j.dsr.2022.103766">González García, L., Pierce, G. J., Autret, E., &amp; Torres-Palenzuela, J. M. (2022). Alongside but separate: Sympatric baleen whales choose different habitat conditions in São Miguel, Azores. Deep Sea Research Part I: Oceanographic Research Papers, 184, 103766. https://doi.org/10.1016/j.dsr.2022.103766.</citation>
+                    <citation identifier="https://doi.org/10.13140/RG.2.2.33571.20005">González García, L., van der Linde, M., &amp; Torres-Palenzuela, J. M. (2016). Understanding blue whales off Azores. 30th European Cetacean Society (March 14-16, 2016; Funchal, Madeira, Portugal). https://doi.org/10.13140/RG.2.2.33571.20005.</citation>
+                    <citation identifier="https://www.investigo.biblioteca.uvigo.es/xmlui/handle/11093/1218">González, L. (2019). Cetacean distribution in São Miguel (Azores): Influence of environmental variables at different spatial and temporal scales [PhD Thesis, Universidade de Vigo]. https://www.investigo.biblioteca.uvigo.es/xmlui/handle/11093/1218.</citation>
+                    <citation identifier="https://doi.org/10.3389/conf.fmars.2014.02.00088">González, L., Van Der Linde, M., Sardà, C., &amp; Torres Palenzuela, J. M. (2014). Looking for North Atlantic Baleen Whales: When are they coming to the Azores? International Meeting on Marine Research (July 10-11, 2014; Peniche, Portugal). https://doi.org/10.3389/conf.fmars.2014.02.00088</citation>
+                    <citation identifier="https://doi.org/10.13140/RG.2.2.12925.37601">Haro, A., &amp; García, L. G. (2024). Should I stay or should I go? Different occurrences of six bottlenose dolphin groups identified in the Azores. 35th European Cetacean Society Conference (April 10-12, 2014; Catania, Sicily, Italy). https://doi.org/10.13140/RG.2.2.12925.37601.</citation>
+                    <citation>Leal, M., Baptista, V., &amp; González García, L. (2022). Photo identification and travelling direction of sei whales (Balaenoptera borealis): A migrant ocean traveller in São Miguel, Azores. 33rd Conference of the European Cetacean Society (April 5-7th, 2022; Ashdod, Israel - online).</citation>
+                    <citation identifier="http://hdl.handle.net/10400.1/17698">Leal, M. de S. (2021). Sei whales (Balaenoptera borealis): Photo identification and habitat preferences of a migrant ocean traveller in São Miguel, Azores [Master’s Thesis]. Universidade do Algarve. http://hdl.handle.net/10400.1/17698.</citation>
+                    <citation identifier="https://unire.unige.it/handle/123456789/4252">Marcolin, C. (2021). Implementation of an acoustic protocol on whale watching vessels for size estimation of sperm whales off São Miguel, Azores [Master’s Thesis]. Università degli Studi di Genova. https://unire.unige.it/handle/123456789/4252.</citation>
+                    <citation>Marcolin, C., González García, L., Pavan, G., Al Abbar, F., &amp; Geelhoed, S. (2022). Estimating sperm whale size from acoustic data collected by whale watching vessels in São Miguel, Azores. Cachalote Consortium at 24th Biennal Conference of the Society for Marine Mammalogy. World Marine Mammal Conference (December 9-12, 2019; Barcelona, Spain).</citation>
+                    <citation>Martins, R., Ortelee, E., Pereira, A., &amp; González García, L. (2023). Stable long-term associations between Risso’s dolphins of São Miguel, Azores. 34th European Cetacean Society (ECS) Conference (April 18-20th, 2023; O Grove, Galicia, Spain).</citation>
+                    <citation>Martins, R. S. da C. (2021). Individual identification of Risso’s dolphins (Grampus griseus) in São Miguel island, Azores [Master’s Thesis]. Universidade dos Açores.</citation>
+                    <citation identifier="https://doi.org/10.1578/AM.48.1.2022.3">Mullin, K. D., Steiner, L., Dunn, C., Claridge, D., García, L. G., Gordon, J., &amp; Lewis, T. (2022). Long-Range Longitudinal Movements of Sperm Whales (Physeter macrocephalus) in the North Atlantic Ocean Revealed by Photo-Identification. Aquatic Mammals, 48(1), 3–8. https://doi.org/10.1578/AM.48.1.2022.3.</citation>
+                    <citation identifier="http://hdl.handle.net/10400.1/15324">Negulescu, R. (2020). Spatial and temporal distribution and photo identification of short-finned pilot whales (Globicephala macrorhynchus) off São Miguel Island, Azores, Portugal [Master’s Thesis]. Universidade do Algarve. http://hdl.handle.net/10400.1/15324.</citation>
+                    <citation>Ortelee, E. (2023). Stable long-term associations between resident Risso’s dolphins of São Miguel, Azores: Study about social structure and temporal patterns of identified individuals of Risso’s dolphin (Grampus griseus G. Cuvier, 1812) around the island of São Miguel [Master’s Thesis]. University of Applied Sciences Van Hall Larenstein.</citation>
+                    <citation>Pereira, A., Catalão, R., Coelho, I., Ernesto, M. A., Brito, M., &amp; González García, L. (2022). Five groups of bottlenose dolphins (Tursiops truncatus) around São Miguel island, Azores. XIII Congreso de La Sociedad Española de Cetáceos (October 27-30th, 2022; Sant Josep de sa Talaia, Ibiza, Spain).</citation>
+                    <citation identifier="http://hdl.handle.net/10400.1/17696">Pereira, A. F. F. (2021). Analysis of the social structure of bottlenose dolphins (Tursiops truncatus) in São Miguel island, Azores [Master’s Thesis]. Universidade do Algarve. http://hdl.handle.net/10400.1/17696.</citation>
+                    <citation identifier="https://doi.org/10.1007/s00300-021-02998-y">Peres Dos Santos, R., Martins, R., Chaiko, A., Cheeseman, T., Jones, L. S., &amp; Wenzel, F. W. (2022). First humpback whale (Megaptera novaeangliae) re-sighting between Azorean waters and the Barents Sea (Murman coast, northwestern Russia). Polar Biology, 45(3), 523–527. https://doi.org/10.1007/s00300-021-02998-y.</citation>
+                    <citation identifier="https://doi.org/10.1578/AM.49.2.2023.195">Pitman, R. L., Schulman-Janiger, A., Guerrero-Ruíz, M. E., Ortega-Gonzalez, A. M., Rosales Nanduca, H., Fishbach, M., Pace, R., Rodrigues, R., Chevallay, D., &amp; Viloria-Gómora, L. (2023). Records of Fatal Killer Whale (Orcinus orca) Attacks on Fin Whales (Balaenoptera physalus) with an Emphasis on Baja California, Mexico. Aquatic Mammals, 49(2), 195–207. https://doi.org/10.1578/AM.49.2.2023.195.</citation>
+                    <citation identifier="https://doi.org/10.1016/j.marpolbul.2023.115428">Rodríguez, Y., Silva, M. A., Pham, C. K., &amp; Duncan, E. M. (2023). Cetaceans playing with single-use plastics (SUPs): A widespread interaction with likely severe impacts. Marine Pollution Bulletin, 194, 115428. https://doi.org/10.1016/j.marpolbul.2023.115428.</citation>
+                    <citation identifier="https://doi.org/10.13140/RG.2.2.28856.05129">Rolim, M., Silva, M., Martins, R., Jacob, D., &amp; González García, L. (2024). Dive into sperm whale vocal diversity: Insights from opportunistic recordings off São Miguel. 35th European Cetacean Society Conference (April 10-12, 2014; Catania, Sicily, Italy). https://doi.org/10.13140/RG.2.2.28856.05129.</citation>
+                    <citation identifier="https://doi.org/10.1016/j.scitotenv.2021.148652">Sousa, A., Alves, F., Arranz, P., Dinis, A., Fernandez, M., González García, L., Morales, M., Lettrich, M., Encarnação Coelho, R., Costa, H., Capela Lourenço, T., Azevedo, N. M. J., &amp; Frazão Santos, C. (2021). Climate change vulnerability of cetaceans in Macaronesia: Insights from a trait-based assessment. Science of The Total Environment, 795, 148652. https://doi.org/10.1016/j.scitotenv.2021.148652.</citation>
+                    <citation identifier=" http://hdl.handle.net/10400.1/19431">Subiron Moreso, G. (2021). Understanding sperm whale (Physeter macrocephalus) in Pico Island, Azores [Master’s Thesis]. Universidade do Algarve. http://hdl.handle.net/10400.1/19431.</citation>
+                    <citation>Toste, A. M. P. (2024). Turismo de Observação de Cetáceos na Ilha de São Miguel (Ilhas dos Açores) [Master’s Thesis]. Universidade de Coimbra.</citation>
+                    <citation>Valente, R., Correia, A. M., Gil, Á., González García, L., &amp; Sousa-Pinto, I. (2017). Understanding Migratory Routes in the Macaronesia—Assessing Range of Physiographic Variables for Baleen Whales. 31st Edition of Annual Conference of European Cetacean Society (April 30 - May 3, 2017; Middlefart, Denmark).</citation>
+                    <citation identifier="https://doi.org/10.1111/mam.12148">Valente, R., Correia, A. M., Gil, Á., González García, L., &amp; Sousa‐Pinto, I. (2019). Baleen whales in Macaronesia: Occurrence patterns revealed through a bibliographic review. Mammal Review, 49(2), 129–151. https://doi.org/10.1111/mam.12148.</citation>
+                    <citation>Valente, R., Correia, A. M., González García, L., Gil, Á., &amp; Sousa-Pinto, I. (2016). Blue and Humpback whales: Unraveling migratory routes through a spatio-temporal analysis. 2nd Edition of Campus de Mar International Science Conference (November 17-18, 2016; Vila Real, Portugal).</citation>
+                    <citation identifier="https://doi.org/10.1111/mms.12617">Van Der Linde, M. L., &amp; Eriksson, I. K. (2019). An assessment of sperm whale occurrence and social structure off São Miguel Island, Azores using fluke and dorsal identification photographs. Marine Mammal Science, 36(1), 47–65. https://doi.org/10.1111/mms.12617.</citation>
+                </bibliography>
+                <dc:replaces>http://ipt.gbif.pt/ipt/resource?id=futurismo_sm_0818/v1.5.xml</dc:replaces>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

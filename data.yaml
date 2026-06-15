@@ -1,0 +1,11 @@
+train: train/images
+val: train/images
+nc: 1
+names: ['whale']
+
+roboflow:
+  workspace: minjus-workspace-mlz9q
+  project: minjus-workspace-mlz9q
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/minjus-workspace-mlz9q/minjus-workspace-mlz9q/dataset

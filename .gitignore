@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+
+# Satellite imagery (too large for GitHub)
+data/raw_imagery/
+data/chips/
+
+# csv whale data
+*.csv
+obis_seamap_dataset_1764_csv_v1.4.0_96891/
+
+# Model weights
+models/runs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files
+*.tif
+*.tiff
+*.pt
+*.pth
+*.zip
+
+# Caches
+.mypy_cache/
+
+# Leftover nested repo
+whaleTracker/
