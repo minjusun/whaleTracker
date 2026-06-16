@@ -25,5 +25,6 @@ saved in: runs/detect/train/weights/best.pt
 
 #Test on real image
 model=YOLO  ('runs/detect/train/weights/best.pt')  # load the trained model
-results=model("aerialwhaleimg.jpg", conf=0.1)  # test on a real image
+results=model("aerialwhaleimg.jpg", conf=0.1, save=True)  # test on a real image; save=True writes the annotated image to disk
 results[0].show()  # show the results
+print("Detected image saved to:", results[0].save_dir)  # path to runs/detect/predict.../
